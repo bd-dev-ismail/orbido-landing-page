@@ -182,9 +182,9 @@ export const Footer = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
-              className="h-5"
+          
               fill="currentColor"
-              className="bi bi-linkedin"
+              className="bi bi-linkedin h-5"
               viewBox="0 0 16 16"
             >
               {" "}

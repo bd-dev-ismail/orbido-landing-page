@@ -5,7 +5,7 @@ import balance from "../../../assets/icons/balance.png";
 const Business = () => {
   return (
     <div className="px-4 mb-10 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
+      <div className="grid gap-5 lg:gap-[15rem] row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
             <h2 className="lg:text-5xl text-3xl font-bold leading-10 lg:leading-[77px] text-white">
@@ -35,7 +35,7 @@ const Business = () => {
           </div>
         </div>
         <div className="relative">
-          <div className=" rounded-2xl flex justify-center items-center p-5 gap-2">
+          <div className=" rounded-2xl rewards-card lg:w-[470px] flex justify-center items-center p-5 gap-2">
             <img src={rewards} alt="" className="w-[62px] h-[52px]" />
             <div>
               <h4 className="text-white text-xl font-medium">Rewards</h4>
@@ -49,11 +49,7 @@ const Business = () => {
             </div>
           </div>
           <div
-            style={{
-              background:
-                "linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%)",
-            }}
-            className="my-5 rounded-2xl flex justify-center items-center p-5 gap-2"
+            className={`my-5 secure-card rounded-2xl lg:w-[470px] flex justify-center items-center p-5 gap-2`}
           >
             <img src={secured} alt="" className="w-[62px] h-[52px]" />
             <div>
@@ -67,7 +63,7 @@ const Business = () => {
               </p>
             </div>
           </div>
-          <div className="my-4 rounded-2xl flex justify-center items-center p-5 gap-2">
+          <div className="my-4 balance-card lg:w-[470px] rounded-2xl flex justify-center items-center p-5 gap-2">
             <img src={balance} alt="" className="w-[62px] h-[52px]" />
             <div>
               <h4 className="text-white text-xl font-medium">

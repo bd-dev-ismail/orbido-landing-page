@@ -8,7 +8,7 @@ const LetsTry = () => {
           background:
             "linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%)",
         }}
-        className="p-5 rounded-xl lg:flex justify-between items-center mb-5"
+        className="lg:p-10 p-5 lg:h-[293px] rounded-xl lg:flex justify-between items-center mb-5"
       >
         <div>
           <h3 className="lg:text-5xl text-3xl font-bold leading-10 lg:leading-[77px] text-white">

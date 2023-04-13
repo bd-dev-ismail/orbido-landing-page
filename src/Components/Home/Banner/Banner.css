@@ -8,7 +8,7 @@
 #banner{
    
         background: linear-gradient(90deg, #1FD8B6 10.14%, #12BADF 49.71%, #C5018E 84.62%);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
 }
 #second-section{
@@ -17,4 +17,8 @@
         background-position:  left;
         background-size: cover;
         border-radius: 650px;
+}
+.secure-card:hover, .balance-card:hover, .rewards-card:hover{
+    background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%) !important;
+    cursor: pointer;
 }

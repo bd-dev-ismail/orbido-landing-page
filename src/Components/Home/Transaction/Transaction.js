@@ -7,7 +7,8 @@ import netflix from "../../../assets/icons/Netflix-Logo.wine.png";
 import manu from "../../../assets/icons/manulife.png";
 import arrowgreen from "../../../assets/icons/Polygon 4.png";
 import paypal from "../../../assets/icons/paypal.png";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Transaction = () => {
   return (
     <div className="px-4 lg:my-0 my-[3rem] relative py-16 h-[85vh] lg:h-[65vh] flex justify-center items-center mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
@@ -65,9 +66,10 @@ const Transaction = () => {
                 </div>
               </div>
               <div>
-                <a
-                  href="/"
-                  aria-label=""
+                <button
+                  onClick={() =>
+                    toast.success("Great! Your Payment is succesfully.")
+                  }
                   style={{
                     background:
                       "linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%)",
@@ -75,7 +77,19 @@ const Transaction = () => {
                   className="flex justify-center text-black items-center text-center  font-semibold w-[194px] h-[31px] rounded-lg"
                 >
                   Make Payment
-                </a>
+                </button>
+                <ToastContainer
+                  position="top-center"
+                  autoClose={1000}
+                  hideProgressBar={false}
+                  newestOnTop={false}
+                  closeOnClick
+                  rtl={false}
+                  pauseOnFocusLoss
+                  draggable
+                  pauseOnHover
+                  theme="light"
+                />
               </div>
             </div>
           </div>
@@ -110,10 +124,7 @@ const Transaction = () => {
                   <p className="text-sm">-$250,93</p>
                 </div>
               </div>
-              <div
-                className="flex my-5 justify
-              -between items-center"
-              >
+              <div className="flex my-5 justify-between items-center">
                 <div className="flex items-center gap-3">
                   <img
                     src={netflix}
