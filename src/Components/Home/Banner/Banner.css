@@ -1,0 +1,6 @@
+#banner{
+   
+        background: linear-gradient(90deg, #1FD8B6 10.14%, #12BADF 49.71%, #C5018E 84.62%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
