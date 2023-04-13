@@ -11,3 +11,10 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 }
+#second-section{
+    background-image: url("../../../assets/transaction-bg.png");
+        background-repeat: no-repeat;
+        background-position:  left;
+        background-size: cover;
+        border-radius: 650px;
+}

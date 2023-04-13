@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="">
         <h3
           id="banner"
-          className="lg:text-7xl text-3xl lg:leading-[82px] leading-10 text-center  font-bold uppercase "
+          className="lg:text-[70px] text-3xl lg:leading-[82px] leading-10 text-center  font-bold uppercase "
         >
           make your dream website <br /> Stand out <br /> in a crowd
         </h3>
