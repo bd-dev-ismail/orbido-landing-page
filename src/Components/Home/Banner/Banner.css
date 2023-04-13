@@ -1,3 +1,10 @@
+#banner-container{
+    background-image: url("../../../assets/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+   border-radius: 650px;
+}
 #banner{
    
         background: linear-gradient(90deg, #1FD8B6 10.14%, #12BADF 49.71%, #C5018E 84.62%);
