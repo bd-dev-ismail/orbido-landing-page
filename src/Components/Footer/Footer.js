@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
-        <div className="md:max-w-md lg:col-span-2">
+        <div className="md:max-w-md text-center lg:text-start lg:col-span-2">
           <a
             href="/"
             aria-label="Go home"
@@ -154,10 +154,13 @@ export const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col justify-between pt-5 pb-10 border-t sm:flex-row">
-        <p style={{ color: "rgba(255, 255, 255, 0.7)" }} className="text-sm ">
+        <p
+          style={{ color: "rgba(255, 255, 255, 0.7)" }}
+          className="text-sm text-center lg:text-start"
+        >
           Copyright © 2023 Orbido. All Rights Reserved.
         </p>
-        <div className="flex items-center mt-4 space-x-4 sm:mt-0">
+        <div className="flex justify-center items-center mt-4 space-x-4 sm:mt-0">
           <a href="/" className="text-white transition-colors duration-300 ">
             <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
               <circle cx="15" cy="15" r="4" />
@@ -181,7 +184,7 @@ export const Footer = () => {
               width="20"
               className="h-5"
               fill="currentColor"
-              class="bi bi-linkedin"
+              className="bi bi-linkedin"
               viewBox="0 0 16 16"
             >
               {" "}

@@ -2,7 +2,7 @@ import React from "react";
 
 const LetsTry = () => {
   return (
-    <div className="px-4  rounded-lg text-white py-5 lg:pb-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="px-4 pt-[8rem] lg:pt-5 rounded-lg text-white py-5 lg:pb-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div
         style={{
           background:
